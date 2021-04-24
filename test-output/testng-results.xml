@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46309" started-at="2021-04-24T13:51:32 CEST" finished-at="2021-04-24T13:52:18 CEST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="46309" started-at="2021-04-24T13:51:32 CEST" finished-at="2021-04-24T13:52:18 CEST">
+      <class name="com.qa.testcases.TrivagoMainTest">
+        <test-method status="PASS" signature="basicSetUp()[pri:0, instance:com.qa.testcases.TrivagoMainTest@462d5aee]" name="basicSetUp" is-config="true" duration-ms="1466" started-at="2021-04-24T13:51:32 CEST" finished-at="2021-04-24T13:51:33 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicSetUp -->
+        <test-method status="PASS" signature="launchURL()[pri:1, instance:com.qa.testcases.TrivagoMainTest@462d5aee]" name="launchURL" duration-ms="6460" started-at="2021-04-24T13:51:33 CEST" finished-at="2021-04-24T13:51:40 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="enterLocation(java.lang.String)[pri:2, instance:com.qa.testcases.TrivagoMainTest@462d5aee]" name="enterLocation" duration-ms="4052" started-at="2021-04-24T13:51:40 CEST" finished-at="2021-04-24T13:51:44 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nuremberg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLocation -->
+        <test-method status="PASS" signature="enterRadius(java.lang.String)[pri:3, instance:com.qa.testcases.TrivagoMainTest@462d5aee]" name="enterRadius" duration-ms="451" started-at="2021-04-24T13:51:44 CEST" finished-at="2021-04-24T13:51:44 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100 miles]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterRadius -->
+        <test-method status="PASS" signature="clickGuestAsLink(java.lang.String, java.lang.String)[pri:4, instance:com.qa.testcases.TrivagoMainTest@462d5aee]" name="clickGuestAsLink" duration-ms="5041" started-at="2021-04-24T13:51:44 CEST" finished-at="2021-04-24T13:51:50 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2021-05-21]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2021-05-23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGuestAsLink -->
+        <test-method status="PASS" signature="enterDetail(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.qa.testcases.TrivagoMainTest@462d5aee]" name="enterDetail" duration-ms="12301" started-at="2021-04-24T13:51:51 CEST" data-provider="passSheet" finished-at="2021-04-24T13:52:03 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDetail -->
+        <test-method status="PASS" signature="insertDatainForm(java.lang.String)[pri:6, instance:com.qa.testcases.TrivagoMainTest@462d5aee]" name="insertDatainForm" duration-ms="12345" started-at="2021-04-24T13:52:03 CEST" finished-at="2021-04-24T13:52:15 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sign in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertDatainForm -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.testcases.TrivagoMainTest@462d5aee]" name="closeBrowser" is-config="true" duration-ms="2773" started-at="2021-04-24T13:52:15 CEST" finished-at="2021-04-24T13:52:18 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.testcases.TrivagoMainTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
